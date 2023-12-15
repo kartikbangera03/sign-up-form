@@ -1,0 +1,172 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.background-logo-image{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width :33vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 12vh;
+    left: 0.4vw;
+    background-color: black;
+    border: 1px grey;
+    height: 10vh;
+    width: 33vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0.75;
+}
+
+.logo{
+
+    height: 15vh;
+}
+
+h1{
+    font-family: norse-bold, sans-serif;
+    color:white;
+    font-size: 7rem;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.each-entry,
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.info,
+.form-content{
+    height: 17vh;
+}
+
+.info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(250,250,250);
+    padding: 50px;
+    margin-top: 0px;
+    overflow:auto;
+
+}
+
+.form-content{
+    padding-left: 50px;
+    padding-top: 25px;
+    height: 30vh;
+    padding-bottom: 50px;
+    box-shadow: 0 8px 2px -2px #e5e7eb;
+
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+
+.form-row{
+    gap: 50px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+input{
+    width: 350px;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid  #e5e7eb;
+    outline: none;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight:500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 55px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 2px 5px grey;
+    outline: none;
+    border: 0;
+    
+}
+
+.login span{
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+}
+
+.info span{
+    position: relative;
+    top: 50px;
+}
+
+a{
+    color:#596D48 ;
+    text-decoration: none;
+}
+
+
+input:invalid{
+    border: 2px;
+    border-color: red;
+}
+
+input:focus{
+    border-color: blue;
+    box-shadow: 2px 2px 5px grey;
+}
+
+input[type="password"]{
+    border-color: red;
+}
+
+button:hover{
+    outline:none;
+    border:0;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px grey;
+}
